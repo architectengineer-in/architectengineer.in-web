@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <title>architectEngineer.in</title>
+    <link rel="icon" href="./public/logoWithBg.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./resize.css" />
+    <script src="global.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+    />
+    <script src="https://kit.fontawesome.com/329b1fa2b8.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="web">
+      <div id="snackbar"></div>
+      <header class="header" id="header">
+        <div class="logo-parent">
+          <img class="logo-icon" alt="" src="./public/logo.svg" />
+          <div>
+            <p class="architecture-engineerin">
+              <b>Architect Engineer.in</b>
+            </p>
+            <p class="powered-by-design">Powered by Design Innovative</p>
+          </div>
+        </div>
+        <nav class="menuheader" id="navigation_top">
+          <div class="currentPage navItem">
+            <a class = "a"  href="#">Home</a>
+          </div>
+          <div class="navItem">
+            <a class = "a"  href="./aboutUs/">About</a>
+          </div>
+          <div class="navItem">
+            <a class = "a"  href="./contactUs/">Contact Us</a>
+          </div>
+        </nav>
+        
+        <div class="icon menu" onclick="toggleMobileMenu();">
+          <i class="fa-solid fa-bars" style="color: #000000;"></i>
+        </div>
+      </header>
+      <div class="menu-mobile">
+        <div class="icon menu-close" onclick="toggleMobileMenu();">
+          <i class="fa-solid fa-xmark" style="color: #000000;"></i>
+        </div>
+        <div class="space"></div>
+        <div class="currentPage navItem">
+          <a class = "a"  href="#">Home</a>
+        </div>
+        <div class="navItem">
+          <a class = "a"  href="./aboutUs/">About</a>
+        </div>
+        <div class="navItem">
+          <a class = "a"  href="./contactUs/">Contact Us</a>
+        </div>
+        <div class="navItem">
+          <a class = "a"  href="./privacy/">Privacy Policy</a>
+        </div>
+        <div class="navItem">
+          <a class = "a"  href="./terms/">Terms & Services</a>
+        </div>
+        <div class="navItem">
+          <a class = "a"  href="./refund/">Refund Policy</a>
+        </div>
+        <div class="navItem">
+          <a class = "a"  href="./delivery/">Delivery Policy</a>
+        </div>
+      </div>
+
+
+      <div class="row-container">
+        <div class="image-div screenshot2second">
+          <img src="./public/screenshotImg1.png" alt="Your Image">
+        </div>
+        <div class="text-div">
+          <div class="design-discover-dive">Design, Discover, Dive In</div>
+          <div class="unlock-your-creative">
+            Unlock Your Creative Potential: Download Now for Custom Designs
+            and Explore our Premium Ebooks for a Deeper Architectural Insight.
+          </div>
+          <div class="button" onclick="openGooglePlay();">
+            Download App
+            <img
+              class="rigoogle-play-fill-icon"
+              alt=""
+              src="./public/rigoogleplayfill.svg"
+            />
+          </div>
+        </div>
+        <div class="image-div screenshot2first">
+          <img src="./public/screenshotImg1.png" alt="Your Image">
+        </div>
+      </div>
+
+      <div class="row-container">
+        <div class="image-div">
+          <img src="./public/screenshotImg2.png" alt="Your Image">
+        </div>
+      
+        <div class="text-div">
+          <div class="design-discover-dive second" >
+            Architectural Chronicles: Explore Our Vast Collection of Ebooks
+          </div>
+          <div class="unlock-your-creative second">
+            Dive into a World of Inspiration with Our Collection of Over 1000
+            Premium Architectural Ebooks.
+          </div>
+        </div>
+      </div>
+    
+      <div class="frame-frame">
+        <div class="row-container lastDiv">
+          <div class="image-div screenshot2second">
+            <img src="./public/screenshotImg3.png" alt="Your Image">
+          </div>
+          <div class="text-div">
+            <b class="ready-to-dive">Ready to Dive In?</b>
+            <div class="button" onclick="openGooglePlay();">
+              Download Now
+              <img
+                class="rigoogle-play-fill-icon"
+                alt=""
+                src="./public/rigoogleplayfill.svg"
+              />
+            </div>
+          </div>
+          <div class="image-div screenshot2first">
+            <img src="./public/screenshotImg3.png" alt="Your Image">
+          </div>
+        </div>
+      </div>
+      <footer class="footer" id="footer">
+        <div class="logo-parent">
+          <img class="logo-icon" alt="" src="./public/logo.svg" />
+          <div >
+            <p class="architecture-engineerin">
+              <b>Architect Engineer.in</b>
+            </p>
+            <p class="powered-by-design">Powered by Design Innovative</p>
+          </div>
+        </div>
+        <div class="frame-parent1">
+          <ul class="links-list">
+            <li class="list-head">Reach us</li>
+            <li class="menu-footer navItem">
+              <img src="./public/bxsphonecall.svg"/>
+              <a class="a" href="tel:+919617131516">+919617131516</a>
+            </li>
+            <li class="menu-footer navItem">
+              <img src="./public/icsharpemail.svg"/>
+              <a class="a" href="mailto:architectengineer.in@gmail.com"
+              >architectengineer.in@gmail.com</a
+            >
+            </li>
+            <li class="menu-footer navItem">
+              <img src="./public/carbonlocationfilled.svg"/>
+              5 Ariha Enclave, Samradhi Elite 2, <br>Indore, India (452012)
+            </li>
+          </ul>
+          <ul class="links-list">
+            <li class="list-head">Company</li>
+            <li class="menu-footer navItem">
+              <a class = "a"  href="./aboutUs/">About</a>
+              </li>
+            <li class="menu-footer navItem">
+              <a class = "a"  href="./contactUs/">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="links-list">
+            <li class="list-head">Legal</li>
+            <li class="menu-footer navItem">
+              <a class = "a"  href="./privacy/">Privacy Policy</a>
+            </li>
+            <li class="menu-footer navItem">
+              <a class = "a"  href="./terms/">Terms & Services</a>
+            </li>
+            
+            <li class="menu-footer navItem">
+              <a class = "a"  href="./refund/">Refund Policy</a>
+            </li>
+            <li class="menu-footer navItem">
+              <a class = "a"  href="./delivery/">Delivery Policy</a>
+            </li>
+          </ul>
+          <ul class="links-list">
+            
+          </ul>
+        </div>
+        <div class="frame1">
+          <div class="copyright-2022-architectureeng">
+            Copyright 2022 architectengineer.in all rights reserved
+          </div>
+          <img class="frame-child" alt="" src="./public/line-16.svg" />
+        </div>
+      </footer>
+    </div>
+
+    
+  </body>
+</html>
